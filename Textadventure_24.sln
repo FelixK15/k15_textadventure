@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextadventureParser", "TextadventureParser\TextadventureParser.vcxproj", "{2E1264FA-5560-48B4-8721-E9ECB4FF0388}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextadventureTest", "TextadventureTest\TextadventureTest.vcxproj", "{2EF34E52-711B-4D59-A680-82CD144D62C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{33D64932-B9E4-4753-A333-C1A9C51E1958} = {33D64932-B9E4-4753-A333-C1A9C51E1958}
+		{2E1264FA-5560-48B4-8721-E9ECB4FF0388} = {2E1264FA-5560-48B4-8721-E9ECB4FF0388}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextadventureLib", "TextadventureLib\TextadventureLib.vcxproj", "{33D64932-B9E4-4753-A333-C1A9C51E1958}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E1264FA-5560-48B4-8721-E9ECB4FF0388} = {2E1264FA-5560-48B4-8721-E9ECB4FF0388}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1264FA-5560-48B4-8721-E9ECB4FF0388}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E1264FA-5560-48B4-8721-E9ECB4FF0388}.Debug|Win32.Build.0 = Debug|Win32
+		{2E1264FA-5560-48B4-8721-E9ECB4FF0388}.Release|Win32.ActiveCfg = Release|Win32
+		{2E1264FA-5560-48B4-8721-E9ECB4FF0388}.Release|Win32.Build.0 = Release|Win32
+		{2EF34E52-711B-4D59-A680-82CD144D62C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EF34E52-711B-4D59-A680-82CD144D62C0}.Debug|Win32.Build.0 = Debug|Win32
+		{2EF34E52-711B-4D59-A680-82CD144D62C0}.Release|Win32.ActiveCfg = Release|Win32
+		{2EF34E52-711B-4D59-A680-82CD144D62C0}.Release|Win32.Build.0 = Release|Win32
+		{33D64932-B9E4-4753-A333-C1A9C51E1958}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33D64932-B9E4-4753-A333-C1A9C51E1958}.Debug|Win32.Build.0 = Debug|Win32
+		{33D64932-B9E4-4753-A333-C1A9C51E1958}.Release|Win32.ActiveCfg = Release|Win32
+		{33D64932-B9E4-4753-A333-C1A9C51E1958}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
